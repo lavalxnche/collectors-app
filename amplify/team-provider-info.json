@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-collectorsapp-dev-ce1fb-authRole",
+      "UnauthRoleArn": "arn:aws:iam::154989746366:role/amplify-collectorsapp-dev-ce1fb-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::154989746366:role/amplify-collectorsapp-dev-ce1fb-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-collectorsapp-dev-ce1fb-deployment",
+      "UnauthRoleName": "amplify-collectorsapp-dev-ce1fb-unauthRole",
+      "StackName": "amplify-collectorsapp-dev-ce1fb",
+      "StackId": "arn:aws:cloudformation:us-east-1:154989746366:stack/amplify-collectorsapp-dev-ce1fb/db205810-a51d-11f0-a322-0eef6266aff5",
+      "AmplifyAppId": "d1r7p9r3ga1qyf"
+    },
+    "categories": {
+      "auth": {
+        "collectorsapp38d7f5db": {}
+      },
+      "api": {
+        "collectorsapp": {}
+      }
+    }
+  }
+}

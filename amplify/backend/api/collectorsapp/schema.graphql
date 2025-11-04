@@ -1,0 +1,13 @@
+type Collection @model
+  @auth(rules: [
+    { allow: owner },
+    { allow: public, operations: [read] }
+  ]) {
+  id: ID!
+  title: String!
+  description: String
+  imageUrl: String
+  createdAt: AWSDateTime
+  owner: String
+}
+
