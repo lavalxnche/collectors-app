@@ -22,13 +22,13 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "@aws-amplify/backend": "^1.16.1",
+    "@aws-amplify/backend": "^1.18.0",
     "@aws-amplify/backend-cli": "^1.8.0",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
-    "@vitejs/plugin-react": "^5.0.4",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^5.0.4",
     "aws-cdk": "^2.138.0",
     "aws-cdk-lib": "^2.138.0",
     "constructs": "^10.3.0",
