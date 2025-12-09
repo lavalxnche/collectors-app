@@ -9,15 +9,11 @@ export const auth = defineAuth({
     email: true,
   },
   userAttributes: {
-    // Maps to Cognito standard attribute 'family_name'
-    familyName: {
+    // Maps to Cognito standard attribute 'nickname'
+    nickname: {
       mutable: true,
       required: false,
     },
-    // Maps to Cognito standard attribute 'given_name'
-    givenName: {
-      mutable: true,
-      required: false,
     },
   },
-});
+);
