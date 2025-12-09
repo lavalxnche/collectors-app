@@ -17,7 +17,7 @@ const schema = a.schema({
     owner: a.belongsTo("User", "ownerId"),
     createdAt: a.datetime(),
   }),
-});
+}).authorization((allow) => allow.publicApiKey());
 
 // Used for code completion / highlighting when making requests from frontend
 export type Schema = ClientSchema<typeof schema>;
